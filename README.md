@@ -183,36 +183,12 @@ Tournament Simulation
 git clone https://github.com/yourusername/World-Cup-Predictor.git
 cd World-Cup-Predictor
 ```
-
-### Create a Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-Activate the environment:
-
-**Windows**
-
-```bash
-venv\Scripts\activate
-```
-
-**Mac/Linux**
-
-```bash
-source venv/bin/activate
-```
-
 ### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
-```
-
----
-
 ## ▶️ Running the Project
+```
 
 ### Train the Model
 
