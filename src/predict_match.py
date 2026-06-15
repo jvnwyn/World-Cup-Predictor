@@ -89,4 +89,4 @@ def predict_match(home_team, away_team):
     }
 
 if __name__ == "__main__":
-    predict_match("Japan", "Netherlands")
+    predict_match("United States", "Paraguay")
