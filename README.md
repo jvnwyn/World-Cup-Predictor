@@ -125,14 +125,13 @@ The trained model generates outcome probabilities for any selected matchup.
 Example:
 
 ```text
-Japan vs Netherlands
-
-Prediction: Netherlands Win
+United States vs Paraguay
+Prediction: United States Win
 
 Probabilities:
-Japan Win: 22.1%
-Draw: 24.5%
-Netherlands Win: 53.4%
+Paraguay Win: 8.58%
+Draw:           27.35%
+United States Win: 64.06%
 ```
 
 ---
@@ -181,8 +180,8 @@ Tournament Simulation
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/MyFootballCompanion.git
-cd MyFootballCompanion
+git clone https://github.com/yourusername/World-Cup-Predictor.git
+cd World-Cup-Predictor
 ```
 
 ### Create a Virtual Environment
