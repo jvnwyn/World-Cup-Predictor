@@ -4,7 +4,7 @@ A machine learning-powered football analytics application that predicts internat
 
 ## 📖 Overview
 
-MyFootballCompanion is designed to analyze international football teams and forecast match results through a data-driven approach. The system leverages historical match records, team performance metrics, and Elo ratings to train a predictive model capable of estimating match outcomes and simulating entire World Cup group stages.
+This FIFA World Cup Prediction System is designed to analyze international football teams and forecast match results through a data-driven approach. The system leverages historical match records, team performance metrics, and Elo ratings to train a predictive model capable of estimating match outcomes and simulating entire World Cup group stages.
 
 The project demonstrates the application of machine learning, feature engineering, and sports analytics in football prediction.
 
