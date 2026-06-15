@@ -1,4 +1,4 @@
-# ⚽ MyFootballCompanion – FIFA World Cup Prediction System
+# ⚽ FIFA World Cup Prediction System
 
 A machine learning-powered football analytics application that predicts international match outcomes and simulates FIFA World Cup tournaments using historical match data, Elo ratings, team form, and performance statistics.
 
