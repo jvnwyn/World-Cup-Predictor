@@ -35,7 +35,7 @@ def get_stats(team):
     return row.iloc[0]
 
 
-def predict_match(home_team, away_team):
+def predict_match(home_team, away_team, verbose=True):
 
     home_elo = get_elo(home_team)
     away_elo = get_elo(away_team)
@@ -73,13 +73,14 @@ def predict_match(home_team, away_team):
     else:
         result_text = "Draw"
 
-    print(f"\n{home_team} vs {away_team}")
-    print(f"Prediction: {result_text}")
+    if verbose:
+        print(f"\n{home_team} vs {away_team}")
+        print(f"Prediction: {result_text}")
 
-    print("\nProbabilities:")
-    print(f"{away_team} Win: {probabilities[0]*100:.2f}%")
-    print(f"Draw:           {probabilities[1]*100:.2f}%")
-    print(f"{home_team} Win: {probabilities[2]*100:.2f}%")
+        print("\nProbabilities:")
+        print(f"{away_team} Win: {probabilities[0]*100:.2f}%")
+        print(f"Draw:           {probabilities[1]*100:.2f}%")
+        print(f"{home_team} Win: {probabilities[2]*100:.2f}%")
 
     return {
         "prediction": prediction,

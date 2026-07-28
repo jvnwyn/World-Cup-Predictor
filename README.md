@@ -1,8 +1,8 @@
-# ⚽ FIFA World Cup Prediction System
+# FIFA World Cup Prediction System
 
 A machine learning-powered football analytics application that predicts international match outcomes and simulates FIFA World Cup tournaments using historical match data, Elo ratings, team form, and performance statistics.
 
-## 📖 Overview
+## Overview
 
 The FIFA World Cup Prediction System is designed to analyze international football teams and forecast match results through a data-driven approach. The system leverages historical match records, team performance metrics, and Elo ratings to train a predictive model capable of estimating match outcomes and simulating entire World Cup group stages.
 
@@ -10,7 +10,7 @@ The project demonstrates the application of machine learning, feature engineerin
 
 ---
 
-## 🚀 Features
+## Features
 
 * Predicts football match outcomes (Home Win, Draw, Away Win)
 * Uses Elo ratings to measure team strength
@@ -23,7 +23,7 @@ The project demonstrates the application of machine learning, feature engineerin
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * Pandas
@@ -35,7 +35,7 @@ The project demonstrates the application of machine learning, feature engineerin
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 WorldCupPredictor/
@@ -62,7 +62,7 @@ WorldCupPredictor/
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 ### 1. Data Collection
 
@@ -155,7 +155,7 @@ Loss = 0 Points
 
 ---
 
-## 📊 Machine Learning Pipeline
+## Machine Learning Pipeline
 
 ```text
 Historical Match Data
@@ -175,7 +175,7 @@ Tournament Simulation
 
 ---
 
-## 💻 Installation
+## Installation
 
 ### Clone the Repository
 
@@ -187,10 +187,10 @@ cd World-Cup-Predictor
 
 ```bash
 pip install -r requirements.txt
-## ▶️ Running the Project
+## Running the Project
 ```
 
-## ▶️ Running the Project
+## Running the Project
 
 ### Train the Model
 
@@ -212,7 +212,7 @@ python src/group_stage_simulator.py
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
 * Support for knockout-stage simulations
 * Advanced machine learning models (XGBoost, Random Forest, Neural Networks)
@@ -224,7 +224,7 @@ python src/group_stage_simulator.py
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates:
 
@@ -238,7 +238,7 @@ This project demonstrates:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Jovan Wayne B. Andrade**
 
@@ -248,6 +248,6 @@ Interested in Machine Learning, Data Analytics, Sports Analytics, and Software D
 
 ---
 
-## 📄 License
+## License
 
 This project is intended for educational, research, and portfolio purposes.
