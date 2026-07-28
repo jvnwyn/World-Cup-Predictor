@@ -47,7 +47,7 @@ def head_to_head_winner(team1, team2, table):
 
     return 0
 
-def simulate_group_stage():
+def simulate_group_stage(verbose=True):
 
     group_tables = {}
 
